@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { FaUser, FaLock } from "react-icons/fa";
 import Button from "./UI/btn";
 
-const Login = () => {
+const Login_Lecturer = () => {
   return (
     <div className="flex h-screen items-center">
       <div className="grid-col-1 px-20">
@@ -47,7 +47,7 @@ const Login = () => {
           <Button>Log In</Button>
           <div className="flex items-center justify-center my-2">
             <p>Don't have an account?</p>
-            <Link to="/sign-up" className="text-blue-500 space-x-3">
+            <Link to="/signup_lecturer" className="text-blue-500 space-x-3">
               Sign Up
             </Link>
           </div>
@@ -56,7 +56,7 @@ const Login = () => {
 
       <div className="grid-col-2">
         <img
-          src="src/assets/images/Computer login-rafiki.png"
+          src="src/assets/images/Secure login-bro.png"
           alt=""
           className="object-cover h-screen w-full"
         />
@@ -65,4 +65,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Login_Lecturer;

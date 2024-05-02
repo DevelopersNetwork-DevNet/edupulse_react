@@ -64,7 +64,7 @@ const SignUp_Lecturer = () => {
           <Button>Sign Up</Button>
           <div className="flex items-center justify-center my-2">
             <p>Have an account?</p>
-            <Link to="/" className="text-blue-500 space-x-3">
+            <Link to="/login_lecturer" className="text-blue-500 space-x-3">
               Log In
             </Link>
           </div>
